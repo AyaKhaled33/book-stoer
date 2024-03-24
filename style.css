@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    cursor: url(./images/mousicon.png),default;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* start navbar  */
+.container{
+    background-image: url(./images/blue_bg.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 16vh;
+    margin: auto;
+ 
+}
+.logo {
+    width: 150px;
+}
+.navbar nav{
+    flex: 1;
+    padding-left: 30px;
+}
+.navbar nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0PX 20PX;
+} 
+.navbar nav ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    transition: 0.3s;
+}
+.navbar nav ul li a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 0%;
+    height: 2px;
+    background-color: #c737bb;
+    transition: 0.4s;
+}
+.navbar nav ul li a:hover{
+    color: rgba(0,0,0,.7);
+}
+.navbar nav ul li a:hover::before{
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+
+/* 1111111111 */
+/* 22222222 */
+
+.navbar .login img{
+    width: 79px;
+}
+.navbar .login span{
+    position: absolute;
+    right: 89px;
+    top: 80px;
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+.navbar .login span:hover{
+    color: #ea2ac7;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.navbar nav ul li a:hover{
+    color: rgba(19, 19, 19, 0.7);
+}
+.navbar nav ul li a:hover::before{
+    width: 100%;
+    border-radius: 3px;
+}
+/* end navbar  */
+
+
+/* start  header */
+.contant-header{
+    display: flex;
+    position: relative;
+    
+}
+.contant-header .left-contant{
+    width: 45%;
+    height: 15%;
+    margin-top: 10%;
+    margin-left: 0%;
+    
+}
+.contant-header .left-contant h1{
+    color: #292d31;
+    font-weight: 700;
+    font-size: 280%;
+    font-family: 'Tilt Neon', cursive;
+    margin-bottom: 4%;
+    word-spacing: 10px;
+}
+.contant-header .left-contant h1 span{
+    color: #b234a8;
+}
+.contant-header .left-contant P{
+    font-size: 160%;
+    font-weight: 300;
+    color: #262d34;
+}
+.right-contant .img1{
+    position: absolute;
+    top: -18%;
+    bottom: 10%;
+    right: -5%;
+    height: 650px;
+    width: 700px;
+}
+.right-contant .img2{
+    width: 25%;
+    position: absolute;
+    right: 16%;
+    top: -18%;
+}
+.right-contant .img3{
+    width: 30%;
+    position: absolute;
+    right: 13%;
+    top: 115%;
+}
+/* end  header */
+
+
+
+/* start section one */
+.one .waves44 .waves4{
+width: 89%;
+position: absolute;
+top: 84%;
+right: 24%;
+}
+/* end section one */
+
+
+
+
+/* start two */
+.secondSec{
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+    height: 120vh;
+}
+.sec2ground{
+    position: absolute;
+    width: 65%;
+    top: 8% ;
+    left: 22%;
+    height: 60%;
+}
+.threedivs div{
+    width: 400px;
+}
+.threedivs div img{
+    width: 250px;
+}
+.threedivs div h3{
+    color: #999;
+    font-size: 25px;
+}
+.threedivs div p{
+    color: #b9b9b9;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.threedivs .div1{
+    position: absolute;
+    top: 16%;
+    left: 10%;
+}
+.threedivs .div2{
+    position: absolute;
+    top: 32%;
+    left: 40%;
+}
+.threedivs .div3{
+    position: absolute;
+    top: 65%;
+    right: 12%;
+}
+.div4{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.div4all{
+    position: relative;
+}
+.div4all img{
+    width: 350px;
+}
+.div4all div{
+   position: absolute;
+   top: 30%;
+   left: 20%;
+   text-align: left;
+}
+.div4all div p{
+    color: white;
+    font-size: 25px;
+}
+.div4all div h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+/* end two */
+
+
+/* start three */
+.three .parentsgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+}
+.three .parentsgroup img{
+    width: 75%;
+}
+.grouptext {
+    text-align: center;
+    width: 40%;
+    margin-left: 20%;
+    color: #757575;
+}
+.grouptext h4{
+    margin-bottom: 10%;
+    font-size: 19px;
+    }
+    .grouptext p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    /* end three */
+
+    /*foter  */
+    footer{
+        position: relative;
+        height: 80vh;
+        overflow: hidden;
+    }
+    .bgfooter{
+        position: absolute;
+        width: 110%;
+        height: 150%;
+        left: -3%;
+        top: 0;
+    
+    }
+    .people{
+        position: absolute;
+        width: 40vw;
+        right: 10%;
+        bottom: 0%;
+    
+    }
+    footer .footertext{
+        position: absolute;
+        top: 65%;
+        left: 10%;
+    }
+    footer ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-top: 30px;
+    }
+    footer ul li a{
+        margin-right: 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .socialimgs{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .socialimgs img{
+        width: 25px;
+        height: 35px;
+        margin-right: 15px;
+    
+    }
+    footer .footerBtn{
+        position: relative;
+        width: 130px;
+        height: 50px;
+        margin-right: 35px;
+    }
+    footer .footerBtn .btnImg{
+        width: 130px;
+        height: 50px;
+    }
+    footer .footerBtn div{
+        position: absolute;
+        left: 10% ;
+        bottom: 40%;
+        display: flex;
+        align-items: center;
+        
+    }
+    footer .footerBtn div p{
+        font-size: 12px;
+        color: #333;
+    }
+    footer .footerBtn div span{
+        display: block;
+        color:#7a3d8a ;
+        font-size: 18px;
+    }
+    
+    /* end foter */
